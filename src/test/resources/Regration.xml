@@ -2,10 +2,17 @@
 
 <suite name="Suite1" verbose="1">
 
-    <test name="Regression1">
+    <test name="TestNG1">
         <classes>
             <class name="TestNG1.TestClass_1_1"/>
+            <class name="TestNG1.TestClass_1_2"/>
+        </classes>
+    </test>
+
+    <test name="TestNG2">
+        <classes>
             <class name="TestNG2.TestClass_2_1"/>
         </classes>
     </test>
+
 </suite>
